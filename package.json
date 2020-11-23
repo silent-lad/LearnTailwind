@@ -1,0 +1,24 @@
+{
+  "name": "learntailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-lad/LearnTailwind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silent-lad/LearnTailwind/issues"
+  },
+  "homepage": "https://github.com/silent-lad/LearnTailwind#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.9",
+    "tailwindcss": "^2.0.1"
+  }
+}
